@@ -10,27 +10,39 @@
 - [travis](https://travis-ci.com/github/Balqees-401-advanced-javascript/lab00) 
 - [front-end application](https://balqees-lab00.herokuapp.com/)
 
+#### Documentation 
+
+- [jsdoc](https://balqees-lab00.herokuapp.com/docs/)
+
+### Modules
+#### `pos.js`
+##### Exported Values and Methods
+
+###### `isAlive(dead) => boolean`
+Return true/false to indicate how the server works
+
 ### Setup
 
-#### `.env` requirements (where applicable)
-
-i.e.
-
+#### `.env` requirements 
 - `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
 
-#### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+#### How to initialize/run your application 
+- `npm start`
+- Endpoint: `/`
+  -Returns a boolean
+- Endpoint : ` /docs`
+  - Returns JSDoc Documentation Pages  
 
-#### How to use your library (where applicable)
-
+#### How to use your library 
 #### Tests
+- Unit Tests: `npm test`
+- Lint Tests: `npm run lint`
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+Incomplete Tests:
+- Need to test xyz...
+
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+:[UML Digram](UML.png)
